@@ -1,0 +1,84 @@
+@startuml
+skinparam linetype ortho
+skinparam packageBackgroundColor #F0F8FF
+skinparam componentBackgroundColor #E6E6FA
+skinparam componentFontColor #000000
+skinparam componentArrowColor #000080
+
+title Face Recognition Project End-to-End Diagram
+
+package "Training the Face Recognition Model" {
+    component "Data Gathering" as DG #FFD700
+    component "Data Preprocessing" as DP #FFA07A
+    component "Feature Engineering" as FE #87CEEB
+    component "Machine Learning Model" as ML #98FB98
+    component "Create ML Pipeline" as CMLP #FFB6C1
+
+    DG --> DP : "Raw Face Images"
+    DP --> FE : "Preprocessed Images"
+    FE --> ML : "Extracted Features"
+    ML --> CMLP : "Trained Model"
+    CMLP --> ML : "Test & Validate"
+}
+
+package "Web Application" {
+    component "Flask (Backend)" as Flask #ADD8E6
+    component "HTML (Frontend)" as HTML #FFE4B5
+    component "Bootstrap (Styling)" as Bootstrap #FFC0CB
+    component "Integrate ML Model" as IntegrateML #90EE90
+
+    Flask --> HTML : "Render Templates"
+    HTML --> Bootstrap : "Apply Styles"
+    Flask --> IntegrateML : "Load Model"
+    IntegrateML --> Flask : "Predictions"
+}
+
+package "Deployment" {
+    component "Deploy Web App" as Deploy #FFA07A
+    component "Heroku Cloud" as Heroku #DDA0DD
+
+    Flask --> Deploy : "Push Code"
+    Deploy --> Heroku : "Deploy App"
+}
+
+note right of DG
+    Data Gathering: Collecting a diverse and representative dataset of face images.
+end note
+
+note right of DP
+    Data Preprocessing: Cleaning, resizing, and normalizing images for consistency.
+end note
+
+note right of FE
+    Feature Engineering: Extracting meaningful features to represent faces effectively.
+end note
+
+note right of ML
+    Machine Learning Model: Training a model to recognize and distinguish faces.
+end note
+
+note right of CMLP
+    Create ML Pipeline: Building a streamlined workflow for training and testing.
+end note
+
+note right of Flask
+    Flask: Web Server Gateway Interface for backend logic.
+end note
+
+note right of HTML
+    HTML: Layout for the frontend.
+end note
+
+note right of Bootstrap
+    Bootstrap: Styling for the frontend.
+end note
+
+note right of IntegrateML
+    Integrate ML Model: Loading the trained model into the web app.
+end note
+
+note right of Deploy
+    Deploy Web App: Uploading and linking the code to Heroku for deployment.
+end note
+
+@enduml
