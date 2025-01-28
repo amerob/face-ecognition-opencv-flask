@@ -27,7 +27,9 @@ The project demonstrates a face recognition system using **OpenCV** and **Machin
    - **Model Integration**: Load the trained model for predictions.
 
 3. **Deployment**
-   - **Deploy Web App**: App hosted on **Heroku**.!
+   - **Deploy Web App**: App hosted on **Heroku**.
+     
+> ![Screenshot from 2025-01-28 18-15-37](https://github.com/user-attachments/assets/2fc2d4e9-6ee1-43fd-84d9-0d540fd78437)
 
 
 ## Installation
