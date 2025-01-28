@@ -12,13 +12,13 @@ The project demonstrates a face recognition system using **OpenCV** and **Machin
 
 1. **Preprocessing, Training and Evaluating the Model**
    
-   - **Data Preprocessing**: Cleaning and normalizing images.
+- **Data Preprocessing**: Cleaning and normalizing images.
      
-   - **Feature Engineering**: Extracting the faces and the eigenimages.
+- **Feature Engineering**: Extracting the faces and the eigenimages.
      
-   - **Machine Learning Model**:  Training the model using SVM and othe ML algorithms for classification, and evaluating it with ensemble methods for improved performance.
+- **Machine Learning Model**:  Training the model using SVM and othe ML algorithms for classification, and evaluating it with ensemble methods for improved performance.
 
-   - **Create ML Pipeline**: Integrating the training and testing process.
+- **Create ML Pipeline**: Integrating the training and testing process.
 
 
      
@@ -29,9 +29,9 @@ The project demonstrates a face recognition system using **OpenCV** and **Machin
 
 2. **Web Application**
    
-   - **Flask (Backend)**: Web server for model integration.
-   - **HTML & Bootstrap (Frontend)**: User interface.
-   - **Model Integration**: Loading the trained model for predictions.
+- **Flask (Backend)**: Web server for model integration.
+- **HTML & Bootstrap (Frontend)**: User interface.
+- **Model Integration**: Loading the trained model for predictions.
 
 4. **Deployment**
    - **Deploy Web App**: App hosted on **Heroku**.
