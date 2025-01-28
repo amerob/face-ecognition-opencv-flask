@@ -22,11 +22,12 @@ The project demonstrates a face recognition system using **OpenCV** and **Machin
 > ![Screenshot from 2025-01-28 18-06-40](https://github.com/user-attachments/assets/5d1553b5-2a2f-418a-9e82-f5bfa2c480b6)
 
 2. **Web Application**
+   
    - **Flask (Backend)**: Web server for model integration.
    - **HTML & Bootstrap (Frontend)**: User interface.
-   - **Model Integration**: Load the trained model for predictions.
+   - **Model Integration**: Loading the trained model for predictions.
 
-3. **Deployment**
+4. **Deployment**
    - **Deploy Web App**: App hosted on **Heroku**.
      
 > ![Screenshot from 2025-01-28 18-15-37](https://github.com/user-attachments/assets/2fc2d4e9-6ee1-43fd-84d9-0d540fd78437)
