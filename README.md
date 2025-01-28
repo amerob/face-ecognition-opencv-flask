@@ -20,6 +20,7 @@ The project demonstrates a face recognition system using **OpenCV** and **Machin
 
    - **Create ML Pipeline**: Integrating the training and testing process.
 
+
      
 > ![report](https://github.com/user-attachments/assets/9f31762c-47ba-430a-b52b-db27caef4e7a)
 
