@@ -28,10 +28,10 @@ This project demonstrates a face recognition system using **OpenCV** and **Machi
 
 ## Installation
 
-- Clone the repo:
+- Clone the repo and install dependencies:
    ```bash
    git clone https://github.com/amerob/face-ecognition-opencv-flask.git
    cd face-recognition-project
-.
+   ```
 
 
