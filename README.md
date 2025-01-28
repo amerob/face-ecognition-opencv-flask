@@ -2,13 +2,13 @@
 
 The project demonstrates a face recognition system using **OpenCV** and **Machine Learning**. The process involves data processing, model training, web application integration, and deployment.
 
-![report](https://github.com/amerob/face-ecognition-opencv-flask/blob/main/static/images/s002)
+> ![report](https://github.com/amerob/face-ecognition-opencv-flask/blob/main/static/images/s002)
 
 
 
 ## Workflow
 
-![Face Recognition Diag](diag5.svg)
+> ![Face Recognition Diag](diag5.svg)
 
 1. **Preprocessing, Training and Evaluating the Model**
    
