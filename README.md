@@ -17,7 +17,7 @@ This project demonstrates a face recognition system using **OpenCV** and **Machi
    - **Flask (Backend)**: Web server for model integration.
    - **HTML & Bootstrap (Frontend)**: User interface.
    - **Model Integration**: Load the trained model for predictions.
-
+![report](https://github.com/amerob/face-ecognition-opencv-flask/blob/main/static/images/s002)
 3. **Deployment**
    - **Deploy Web App**: App hosted on **Heroku**.!
 
